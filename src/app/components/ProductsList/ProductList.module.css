@@ -1,0 +1,22 @@
+.container {
+    padding: 2rem;
+}
+
+.category {
+    margin-bottom: 3rem;
+}
+
+.categoryTitle {
+    font-family: var(--font-family-secondary);
+    font-size: 1.25rem;
+    /* Reduced from 1.5rem to make the title smaller */
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    line-height: var(--line-height-heading);
+}
+
+.productsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
