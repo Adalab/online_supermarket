@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Manzanas Golden, bandeja 1 Kg aprox.",
+        "price": 2.49,
+        "pricePerKilo": 2.49,
+        "image": "https://delahuertacasa.com/wp-content/uploads/2022/01/manzana-golden-product.jpg"
+    },
+    {
+        "name": "Plátanos de Canarias, mano 1 Kg aprox.",
+        "price": 2.89,
+        "pricePerKilo": 2.89,
+        "image": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202301/24/00118109600041____5__600x600.jpg"
+    },
+    {
+        "name": "Tomates pera, bandeja 1 Kg aprox.",
+        "price": 2.35,
+        "pricePerKilo": 2.35,
+        "image": "https://delahuertacasa.com/wp-content/uploads/2022/01/tomate-pera-product.jpg"
+    },
+    {
+        "name": "Naranjas de mesa, malla 2 Kg aprox.",
+        "price": 3.49,
+        "discount": "10%",
+        "pricePerKilo": 1.75,
+        "image": "https://fruteriadevalencia.com/wp-content/uploads/2015/02/MESA-buena.jpg"
+    },
+    {
+        "name": "Cebollas dulces, malla 1.5 Kg aprox.",
+        "price": 1.99,
+        "pricePerKilo": 1.33,
+        "image": "https://www.lacajadelahuerta.com/313-large_default/cebolla-dulce.jpg"
+    },
+    {
+        "name": "Zanahorias frescas, bandeja 1 Kg aprox.",
+        "price": 1.20,
+        "pricePerKilo": 1.20,
+        "image": "https://kitchenacademy.es/wp-content/uploads/zanahoria.jpg"
+    },
+    {
+        "name": "Lechuga iceberg, unidad aprox.",
+        "price": 1.15,
+        "pricePerKilo": 1.15,
+        "image": "https://delahuertacasa.com/wp-content/uploads/2022/01/lechuga-iceberg-product.jpg"
+    },
+    {
+        "name": "Calabacín verde, unidad aprox. 500 g",
+        "price": 1.45,
+        "pricePerKilo": 2.90,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_G6SA2KmLVrI0-LN6Ycznb_CJ4yplym37-g&s"
+    },
+    {
+        "name": "Pimientos verdes, bandeja 1 Kg aprox.",
+        "price": 2.99,
+        "pricePerKilo": 2.99,
+        "image": "https://fruteriaonlinemadrid.es/wp-content/uploads/2021/11/pimiento-verde-italiano.jpg"
+    },
+    {
+        "name": "Patatas blancas, saco 3 Kg aprox.",
+        "price": 3.49,
+        "pricePerKilo": 1.16,
+        "image": "https://laplazadejaen.com/wp-content/uploads/2019/05/19-Placido.jpg"
+    },
+    {
+        "name": "Brócoli fresco, bandeja 500 g aprox.",
+        "price": 1.99,
+        "pricePerKilo": 3.98,
+        "image": "https://www.lechepuleva.es/documents/13930/203222/brocoli_g.jpg/18842a11-73a9-446a-9c78-6bb87f5fb002?t=1423471280000"
+    },
+    {
+        "name": "Aguacates maduros, bandeja 500 g aprox.",
+        "price": 2.89,
+        "pricePerKilo": 5.78,
+        "image": "https://delahuertacasa.com/wp-content/uploads/2022/01/aguacates-hass.jpg"
+    },
+    {
+        "name": "Coliflor blanca, unidad aprox. 1 Kg",
+        "price": 2.49,
+        "pricePerKilo": 2.49,
+        "image": "https://verdecora.es/1279764-medium_default/coliflor-blanca-m-11.jpg"
+    },
+    {
+        "name": "Uvas blancas sin semilla, bandeja 500 g",
+        "price": 2.99,
+        "pricePerKilo": 5.98,
+        "image": "https://www.campusdelvino.com/media/k2/items/cache/7a6fe08027b80ee08bda1ed60d73e334_XL.jpg"
+    },
+    {
+        "name": "Espinacas frescas, bolsa 300 g",
+        "price": 1.99,
+        "pricePerKilo": 6.63,
+        "image": "https://www.gastronomiavasca.net/uploads/image/file/3368/espinacas.jpg"
+    }
+]

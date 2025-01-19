@@ -1,0 +1,14 @@
+.main {
+    padding: 2rem;
+    background-color: var(--background-color);
+    min-height: 100vh;
+}
+
+.title {
+    font-family: var(--font-family-secondary);
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: var(--line-height-heading);
+}

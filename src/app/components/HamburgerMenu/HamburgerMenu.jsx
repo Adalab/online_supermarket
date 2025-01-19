@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from 'react';
 import styles from './HamburgerMenu.module.css';
 
@@ -21,8 +22,8 @@ export default function HamburgerMenu() {
             {menuOpen && (
                 <div className={styles.menuExpanded}>
                     <ul className={styles.menuList}>
-                        <li><a href="#">Frutas y Verduras</a></li>
                         <li><a href="#">Carnicería</a></li>
+                        <li><Link href="/categorySection">Frutas y verduras</Link></li>
                         <li><a href="#">Lácteos</a></li>
                         <li><a href="#">Higiene Personal</a></li>
                         <li><a href="#">Panadería</a></li>

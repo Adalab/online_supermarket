@@ -19,7 +19,18 @@ const nextConfig = {
             "tienda.laespanolaaceites.com",
             "www.cafesoquendo.com",
             "rosara.com",
-            "www.arrozsos.es"
+            "www.arrozsos.es",
+            "sgfm.elcorteingles.es",
+            "fruteriadevalencia.com",
+            "www.lacajadelahuerta.com",
+            "kitchenacademy.es",
+            "fruteriaonlinemadrid.es",
+            "laplazadejaen.com",
+            "www.lechepuleva.es",
+            "verdecora.es",
+            "www.campusdelvino.com",
+            "www.gastronomiavasca.net",
+            "encrypted-tbn0.gstatic.com"
         ],
     },
 };
