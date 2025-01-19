@@ -11,8 +11,7 @@
             "name": "Patatas fritas clásicas 150g",
             "image": "https://static.carrefour.es/hd_510x_/img_pim_food/593705_00_1.jpg",
             "price": 1.49,
-            "discount": "20%",
-            "pricePerKilo": 9.93
+            "discount": "20%"
         },
         {
             "name": "Galletas de chocolate",

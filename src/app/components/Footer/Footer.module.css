@@ -32,12 +32,11 @@
 
 .linksList a {
     color: var(--button-color);
-    text-decoration: underline;
     transition: color 0.3s ease;
 }
 
 .linksList a:hover {
-    color: var(--secondary-color);
+    text-decoration: underline;
 }
 
 .socialSection {
@@ -61,10 +60,6 @@
     font-size: 1.5rem;
     color: var(--button-color);
     transition: color 0.3s ease;
-}
-
-.icon:hover {
-    color: var(--secondary-color);
 }
 
 .copySection {

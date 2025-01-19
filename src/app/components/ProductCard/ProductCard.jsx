@@ -2,6 +2,11 @@ import Image from "next/image";
 import styles from "./ProductCard.module.css";
 
 export default function ProductCard({ product }) {
+    const discountValue = product.discount
+        ? parseFloat(product.discount.replace('%', '')) / 100
+        : 0;
+    const discountedPrice = product.price - product.price * discountValue;
+
     return (
         <div className={styles.card}>
             <div className={styles.imageWrapper}>
@@ -16,13 +21,13 @@ export default function ProductCard({ product }) {
             <div className={styles.details}>
                 <h3 className={styles.name}>{product.name}</h3>
                 <p className={styles.price}>
-                    {product.discount ? (
+                    {discountValue > 0 ? (
                         <>
                             <span className={styles.oldPrice}>
                                 {product.price.toFixed(2)} €
-                            </span>{" "}
+                            </span>
                             <span className={styles.discountedPrice}>
-                                {(product.price - product.discount).toFixed(2)} €
+                                {discountedPrice.toFixed(2)} €
                             </span>
                         </>
                     ) : (
