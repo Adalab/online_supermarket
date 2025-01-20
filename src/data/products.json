@@ -1,33 +1,4 @@
 {
-    "offers": [
-        {
-            "name": "Pack de 6 botellas de agua mineral",
-            "image": "https://fontvella.danone.es/wp-content/uploads/2023/07/08410055150018_C1N1_E-scaled.jpg",
-            "price": 2.99,
-            "discount": "10%",
-            "pricePerKilo": null
-        },
-        {
-            "name": "Patatas fritas clásicas 150g",
-            "image": "https://static.carrefour.es/hd_510x_/img_pim_food/593705_00_1.jpg",
-            "price": 1.49,
-            "discount": "20%"
-        },
-        {
-            "name": "Galletas de chocolate",
-            "image": "https://lh6.googleusercontent.com/proxy/dRdkbErWsC4qq18Tb7OjaunTWoTejQqW8OL2qT24-_TUQxBZVIRWZgg5bdLlCN4Ewj5k81OFf-WNH2379oqpkWfG-13gZnkvYXV8v2N1LOS-S-vtLwhaJsnOMX2dDQ",
-            "price": 2.50,
-            "discount": null,
-            "pricePerKilo": 12.50
-        },
-        {
-            "name": "Cerveza rubia 6x330ml",
-            "image": "https://m.media-amazon.com/images/I/71QR0lu3UeL.jpg",
-            "price": 4.20,
-            "discount": "15%",
-            "pricePerKilo": null
-        }
-    ],
     "fresh": [
         {
             "name": "Manzanas Golden (1kg)",
@@ -116,6 +87,35 @@
             "price": 1.10,
             "discount": null,
             "pricePerKilo": 2.75
+        }
+    ],
+    "offers": [
+        {
+            "name": "Pack de 6 botellas de agua mineral",
+            "image": "https://fontvella.danone.es/wp-content/uploads/2023/07/08410055150018_C1N1_E-scaled.jpg",
+            "price": 2.99,
+            "discount": "10%",
+            "pricePerKilo": null
+        },
+        {
+            "name": "Patatas fritas clásicas 150g",
+            "image": "https://static.carrefour.es/hd_510x_/img_pim_food/593705_00_1.jpg",
+            "price": 1.49,
+            "discount": "20%"
+        },
+        {
+            "name": "Galletas de chocolate",
+            "image": "https://lh6.googleusercontent.com/proxy/dRdkbErWsC4qq18Tb7OjaunTWoTejQqW8OL2qT24-_TUQxBZVIRWZgg5bdLlCN4Ewj5k81OFf-WNH2379oqpkWfG-13gZnkvYXV8v2N1LOS-S-vtLwhaJsnOMX2dDQ",
+            "price": 2.50,
+            "discount": null,
+            "pricePerKilo": 12.50
+        },
+        {
+            "name": "Cerveza rubia 6x330ml",
+            "image": "https://m.media-amazon.com/images/I/71QR0lu3UeL.jpg",
+            "price": 4.20,
+            "discount": "15%",
+            "pricePerKilo": null
         }
     ]
 }

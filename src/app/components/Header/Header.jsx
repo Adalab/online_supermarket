@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <HamburgerMenu />
-            <Link href="/">
+            <Link className={styles.link} href="/">
                 <h1 className={styles.title}>El super del barrio</h1>
             </Link>
         </header>

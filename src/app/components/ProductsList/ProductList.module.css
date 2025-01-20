@@ -8,8 +8,7 @@
 
 .categoryTitle {
     font-family: var(--font-family-secondary);
-    font-size: 1.25rem;
-    /* Reduced from 1.5rem to make the title smaller */
+    font-size: 1.3rem;
     color: var(--primary-color);
     margin-bottom: 1rem;
     line-height: var(--line-height-heading);

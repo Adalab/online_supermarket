@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
     // output: 'export',
     // basePath: '/online_supermarket',
@@ -30,8 +31,15 @@ const nextConfig = {
             "verdecora.es",
             "www.campusdelvino.com",
             "www.gastronomiavasca.net",
-            "encrypted-tbn0.gstatic.com"
+            "encrypted-tbn0.gstatic.com",
+            "www.allnaturalbilbao.com"
         ],
+    },
+    ...isProd && { assetPrefix: '/online_supermarket' },
+    ...isProd && { basePath: '/online_supermarket' },
+    ...isProd && { output: 'export' },
+    images: {
+        unoptimized: true,
     },
 };
 

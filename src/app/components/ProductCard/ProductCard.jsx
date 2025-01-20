@@ -33,12 +33,12 @@ export default function ProductCard({ product }) {
                     ) : (
                         <span>{product.price.toFixed(2)} €</span>
                     )}
+                    {product.pricePerKilo && (
+                        <span className={styles.pricePerKilo}>
+                            {product.pricePerKilo.toFixed(2)} €/kg
+                        </span>
+                    )}
                 </p>
-                {product.pricePerKilo && (
-                    <p className={styles.pricePerKilo}>
-                        {product.pricePerKilo.toFixed(2)} €/kg
-                    </p>
-                )}
                 <button className={styles.addButton}>Añadir</button>
             </div>
         </div>
