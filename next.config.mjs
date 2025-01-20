@@ -1,9 +1,6 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
-    // output: 'export',
-    // basePath: '/online_supermarket',
-    // assetPrefix: '',
     images: {
         domains: [
             "fontvella.danone.es",
