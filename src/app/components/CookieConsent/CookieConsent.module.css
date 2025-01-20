@@ -1,0 +1,66 @@
+.cookieBanner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--button-color);
+    color: var(--text-color);
+    padding: 1rem;
+    box-shadow: var(--box-shadow-heavy);
+    border-top: 2px solid var(--primary-color);
+    z-index: 1000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    margin-right: 1rem;
+    flex: 1;
+}
+
+.link {
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin-left: 1rem;
+}
+
+.link:hover {
+    color: var(--link-hover-color);
+}
+
+.buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.acceptButton {
+    background-color: var(--button-hover-color);
+    color: var(--button-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-size: 0.875rem;
+}
+
+.acceptButton:hover {
+    background-color: var(--link-hover-color);
+    box-shadow: var(--box-shadow-heavy);
+}
+
+.acceptAllButton {
+    background-color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.75rem 1.25rem;
+}
+
+.acceptAllButton:hover {
+    background-color: var(--link-hover-color);
+    box-shadow: var(--box-shadow-heavy);
+}
