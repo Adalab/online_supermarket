@@ -1,121 +1,154 @@
 {
     "fresh": [
         {
+            "id": "fresh-1",
             "name": "Manzanas Golden (1kg)",
             "image": "https://delahuertacasa.com/wp-content/uploads/2022/01/manzana-golden-product.jpg",
             "price": 1.99,
             "discount": "15%",
-            "pricePerKilo": 1.99
+            "pricePerKilo": 1.99,
+            "description": "Manzanas dulces y crujientes ideales para snacks y postres."
         },
         {
+            "id": "fresh-2",
             "name": "Leche fresca entera 1L",
             "image": "https://s1.elespanol.com/2017/06/16/actualidad/actualidad_224239380_36438133_1024x576.jpg",
             "price": 1.09,
             "discount": null,
-            "pricePerKilo": null
+            "pricePerKilo": null,
+            "description": "Leche entera fresca de alta calidad, perfecta para desayunos."
         },
         {
+            "id": "fresh-3",
             "name": "Pan de molde integral",
             "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/791D03F1-A753-4B51-8208-8935C35F6587/Derivates/bd564d0a-8247-477b-9a52-48f2202d454e.jpg",
             "price": 1.35,
             "discount": "5%",
-            "pricePerKilo": 6.75
+            "pricePerKilo": 6.75,
+            "description": "Pan integral tierno y saludable, ideal para sandwiches."
         },
         {
-            "name": "Huevos camperos (12 unidades)",
+            "id": "fresh-4",
+            "name": "Huevos camperos (docena)",
             "image": "https://delahuertacasa.com/wp-content/uploads/2022/05/huevos-camperos.jpg",
             "price": 2.99,
             "discount": null,
-            "pricePerKilo": null
+            "pricePerKilo": null,
+            "description": "Huevos frescos de gallinas camperas, perfectos para todas tus recetas."
         }
     ],
     "personal_care": [
         {
+            "id": "personal_care-1",
             "name": "Champú anticaspa 400ml",
             "image": "https://www.farmaciabarata.es/30470/dercos-champu-anticaspa-cabello-graso-390ml.jpg",
             "price": 3.49,
             "discount": "10%",
-            "pricePerKilo": null
+            "pricePerKilo": null,
+            "description": "Champú eficaz para combatir la caspa y dejar el cabello fresco."
         },
         {
+            "id": "personal_care-2",
             "name": "Gel de ducha relajante 750ml",
             "image": "https://dehesia.com/wp-content/uploads/gel-dehesia-cosmetica.jpg",
             "price": 2.89,
             "discount": null,
-            "pricePerKilo": null
+            "pricePerKilo": null,
+            "description": "Gel de ducha suave con aroma relajante para tu bienestar diario."
         },
         {
+            "id": "personal_care-3",
             "name": "Pasta de dientes blanqueadora",
             "image": "https://m.media-amazon.com/images/I/81hYSB6c6VL.jpg",
             "price": 2.50,
             "discount": null,
-            "pricePerKilo": null
+            "pricePerKilo": null,
+            "description": "Pasta dental que ayuda a blanquear los dientes y proteger las encías."
         },
         {
+            "id": "personal_care-4",
             "name": "Crema hidratante facial 50ml",
             "image": "https://www.druni.es/media/catalog/product/5/8/5802875.jpg",
             "price": 5.99,
             "discount": "5%",
-            "pricePerKilo": null
+            "pricePerKilo": null,
+            "description": "Crema facial ligera que hidrata y suaviza la piel."
         }
     ],
     "special_products": [
         {
+            "id": "special_products-1",
             "name": "Aceite de oliva virgen extra 1L",
             "image": "https://tienda.laespanolaaceites.com/cdn/shop/files/AOVE-gran-seleccion-500-ml.png?v=1711104830",
             "price": 5.99,
             "discount": "5%",
-            "pricePerKilo": null
+            "pricePerKilo": null,
+            "description": "Aceite de oliva de alta calidad para realzar tus platos."
         },
         {
+            "id": "special_products-2",
             "name": "Arroz redondo 1kg",
             "image": "https://www.arrozsos.es/wp-content/uploads/2023/08/shutterstock_332942066-1.jpg",
             "price": 1.20,
             "discount": null,
-            "pricePerKilo": 1.20
+            "pricePerKilo": 1.20,
+            "description": "Arroz redondo ideal para preparar paellas y guisos."
         },
         {
+            "id": "special_products-3",
             "name": "Café molido 250g",
             "image": "https://www.cafesoquendo.com/wp-content/uploads/fly-images/80829/cafe-grano-o-molido-0x1300-c.jpg",
             "price": 2.75,
             "discount": "10%",
-            "pricePerKilo": 11.00
+            "pricePerKilo": 11.00,
+            "description": "Café molido con aroma intenso y sabor equilibrado."
         },
         {
+            "id": "special_products-4",
             "name": "Tomate frito en conserva 400g",
             "image": "https://rosara.com/wp-content/uploads/2021/04/conservas-tomate-frito-especial-tarro-1-2kg.jpg",
             "price": 1.10,
             "discount": null,
-            "pricePerKilo": 2.75
+            "pricePerKilo": 2.75,
+            "description": "Tomate frito natural, perfecto para tus recetas favoritas."
         }
     ],
     "offers": [
         {
-            "name": "Pack de 6 botellas de agua mineral",
+            "id": "offers-1",
+            "name": "6 botellas de agua mineral",
             "image": "https://fontvella.danone.es/wp-content/uploads/2023/07/08410055150018_C1N1_E-scaled.jpg",
             "price": 2.99,
             "discount": "10%",
-            "pricePerKilo": null
+            "pricePerKilo": null,
+            "description": "Pack de agua mineral fresca y pura para hidratarte."
         },
         {
+            "id": "offers-2",
             "name": "Patatas fritas clásicas 150g",
             "image": "https://static.carrefour.es/hd_510x_/img_pim_food/593705_00_1.jpg",
             "price": 1.49,
-            "discount": "20%"
+            "discount": "20%",
+            "pricePerKilo": null,
+            "description": "Patatas fritas crujientes, ideales para acompañar tus comidas."
         },
         {
+            "id": "offers-3",
             "name": "Galletas de chocolate",
             "image": "https://lh6.googleusercontent.com/proxy/dRdkbErWsC4qq18Tb7OjaunTWoTejQqW8OL2qT24-_TUQxBZVIRWZgg5bdLlCN4Ewj5k81OFf-WNH2379oqpkWfG-13gZnkvYXV8v2N1LOS-S-vtLwhaJsnOMX2dDQ",
             "price": 2.50,
             "discount": null,
-            "pricePerKilo": 12.50
+            "pricePerKilo": 12.50,
+            "description": "Galletas dulces con delicioso chocolate, perfectas para postres."
         },
         {
+            "id": "offers-4",
             "name": "Cerveza rubia 6x330ml",
             "image": "https://m.media-amazon.com/images/I/71QR0lu3UeL.jpg",
             "price": 4.20,
             "discount": "15%",
-            "pricePerKilo": null
+            "pricePerKilo": null,
+            "description": "Pack de cerveza rubia refrescante para disfrutar con amigos."
         }
     ]
 }

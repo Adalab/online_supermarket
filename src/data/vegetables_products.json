@@ -1,93 +1,123 @@
 [
     {
+        "id": "product-1",
         "name": "Manzanas Golden, bandeja 1 Kg aprox.",
         "price": 2.49,
         "pricePerKilo": 2.49,
-        "image": "https://delahuertacasa.com/wp-content/uploads/2022/01/manzana-golden-product.jpg"
+        "image": "https://delahuertacasa.com/wp-content/uploads/2022/01/manzana-golden-product.jpg",
+        "description": "Manzanas dulces y crujientes, perfectas para consumir frescas o preparar postres."
     },
     {
+        "id": "product-2",
         "name": "Plátanos de Canarias, mano 1 Kg aprox.",
         "price": 2.89,
         "pricePerKilo": 2.89,
-        "image": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202301/24/00118109600041____5__600x600.jpg"
+        "image": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202301/24/00118109600041____5__600x600.jpg",
+        "description": "Plátanos frescos de Canarias, ricos en potasio y perfectos para snacks saludables."
     },
     {
+        "id": "product-3",
         "name": "Tomates pera, bandeja 1 Kg aprox.",
         "price": 2.35,
         "pricePerKilo": 2.35,
-        "image": "https://delahuertacasa.com/wp-content/uploads/2022/01/tomate-pera-product.jpg"
+        "image": "https://delahuertacasa.com/wp-content/uploads/2022/01/tomate-pera-product.jpg",
+        "description": "Tomates jugosos y sabrosos, ideales para salsas y ensaladas."
     },
     {
+        "id": "product-4",
         "name": "Naranjas de mesa, malla 2 Kg aprox.",
         "price": 3.49,
         "discount": "10%",
         "pricePerKilo": 1.75,
-        "image": "https://fruteriadevalencia.com/wp-content/uploads/2015/02/MESA-buena.jpg"
+        "image": "https://fruteriadevalencia.com/wp-content/uploads/2015/02/MESA-buena.jpg",
+        "description": "Naranjas dulces y jugosas, perfectas para comer frescas o hacer zumos."
     },
     {
+        "id": "product-5",
         "name": "Cebollas dulces, malla 1.5 Kg aprox.",
         "price": 1.99,
         "pricePerKilo": 1.33,
-        "image": "https://www.lacajadelahuerta.com/313-large_default/cebolla-dulce.jpg"
+        "image": "https://www.lacajadelahuerta.com/313-large_default/cebolla-dulce.jpg",
+        "description": "Cebollas dulces y suaves, ideales para ensaladas o guisos."
     },
     {
+        "id": "product-6",
         "name": "Zanahorias frescas, bandeja 1 Kg aprox.",
         "price": 1.20,
         "pricePerKilo": 1.20,
-        "image": "https://kitchenacademy.es/wp-content/uploads/zanahoria.jpg"
+        "image": "https://kitchenacademy.es/wp-content/uploads/zanahoria.jpg",
+        "description": "Zanahorias frescas y crujientes, perfectas para cocinar o consumir crudas."
     },
     {
+        "id": "product-7",
         "name": "Lechuga iceberg, unidad aprox.",
         "price": 1.15,
         "pricePerKilo": 1.15,
-        "image": "https://delahuertacasa.com/wp-content/uploads/2022/01/lechuga-iceberg-product.jpg"
+        "image": "https://delahuertacasa.com/wp-content/uploads/2022/01/lechuga-iceberg-product.jpg",
+        "description": "Lechuga iceberg fresca y crujiente, ideal para ensaladas."
     },
     {
+        "id": "product-8",
         "name": "Calabacín verde, unidad aprox. 500 g",
         "price": 1.45,
         "pricePerKilo": 2.90,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_G6SA2KmLVrI0-LN6Ycznb_CJ4yplym37-g&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_G6SA2KmLVrI0-LN6Ycznb_CJ4yplym37-g&s",
+        "description": "Calabacines tiernos y frescos, ideales para salteados y cremas."
     },
     {
+        "id": "product-9",
         "name": "Pimientos verdes, bandeja 1 Kg aprox.",
         "price": 2.99,
         "pricePerKilo": 2.99,
-        "image": "https://www.allnaturalbilbao.com/wp-content/uploads/2020/11/w700_pimiento_verde.jpg"
+        "image": "https://www.allnaturalbilbao.com/wp-content/uploads/2020/11/w700_pimiento_verde.jpg",
+        "description": "Pimientos verdes frescos, perfectos para asar, rellenar o saltear."
     },
     {
+        "id": "product-10",
         "name": "Patatas blancas, saco 3 Kg aprox.",
         "price": 3.49,
         "pricePerKilo": 1.16,
-        "image": "https://laplazadejaen.com/wp-content/uploads/2019/05/19-Placido.jpg"
+        "image": "https://laplazadejaen.com/wp-content/uploads/2019/05/19-Placido.jpg",
+        "description": "Patatas blancas ideales para guisos, purés o freír."
     },
     {
+        "id": "product-11",
         "name": "Brócoli fresco, bandeja 500 g aprox.",
         "price": 1.99,
         "pricePerKilo": 3.98,
-        "image": "https://www.lechepuleva.es/documents/13930/203222/brocoli_g.jpg/18842a11-73a9-446a-9c78-6bb87f5fb002?t=1423471280000"
+        "image": "https://www.lechepuleva.es/documents/13930/203222/brocoli_g.jpg/18842a11-73a9-446a-9c78-6bb87f5fb002?t=1423471280000",
+        "description": "Brócoli fresco y nutritivo, excelente para cocinar al vapor o salteado."
     },
     {
+        "id": "product-12",
         "name": "Aguacates maduros, bandeja 500 g aprox.",
         "price": 2.89,
         "pricePerKilo": 5.78,
-        "image": "https://delahuertacasa.com/wp-content/uploads/2022/01/aguacates-hass.jpg"
+        "image": "https://delahuertacasa.com/wp-content/uploads/2022/01/aguacates-hass.jpg",
+        "description": "Aguacates maduros y cremosos, ideales para ensaladas y guacamole."
     },
     {
+        "id": "product-13",
         "name": "Coliflor blanca, unidad aprox. 1 Kg",
         "price": 2.49,
         "pricePerKilo": 2.49,
-        "image": "https://verdecora.es/1279764-medium_default/coliflor-blanca-m-11.jpg"
+        "image": "https://verdecora.es/1279764-medium_default/coliflor-blanca-m-11.jpg",
+        "description": "Coliflor fresca, perfecta para gratinar, hervir o hacer cremas."
     },
     {
+        "id": "product-14",
         "name": "Uvas blancas sin semilla, bandeja 500 g",
         "price": 2.99,
         "pricePerKilo": 5.98,
-        "image": "https://www.campusdelvino.com/media/k2/items/cache/7a6fe08027b80ee08bda1ed60d73e334_XL.jpg"
+        "image": "https://www.campusdelvino.com/media/k2/items/cache/7a6fe08027b80ee08bda1ed60d73e334_XL.jpg",
+        "description": "Uvas blancas sin semillas, dulces y perfectas para postres o aperitivos."
     },
     {
+        "id": "product-15",
         "name": "Espinacas frescas, bolsa 300 g",
         "price": 1.99,
         "pricePerKilo": 6.63,
-        "image": "https://www.gastronomiavasca.net/uploads/image/file/3368/espinacas.jpg"
+        "image": "https://www.gastronomiavasca.net/uploads/image/file/3368/espinacas.jpg",
+        "description": "Espinacas frescas y tiernas, ideales para ensaladas o cocinar."
     }
 ]

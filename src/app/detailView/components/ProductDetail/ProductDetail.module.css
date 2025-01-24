@@ -1,0 +1,127 @@
+.container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.backButton {
+    background-color: var(--primary-color);
+    color: var(--button-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+    background-color: var(--button-hover-color);
+}
+
+.productDetails {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    /* Ensures wrapping for smaller screens */
+}
+
+.productImage {
+    max-width: 300px;
+    width: 100%;
+    /* Allow image to shrink on smaller screens */
+    border-radius: 8px;
+    box-shadow: var(--box-shadow-light);
+    object-fit: cover;
+}
+
+.productInfo {
+    flex: 1;
+    min-width: 250px;
+    /* Prevent the info section from becoming too small */
+}
+
+.productName {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.productDescription {
+    font-size: 1.125rem;
+    color: var(--text-secondary-color);
+}
+
+.productPrice {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: var(--primary-color);
+}
+
+.errorMessage {
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--text-secondary-color);
+}
+
+.productDiscount {
+    font-size: 1.25rem;
+    color: var(--secondary-color);
+    margin-top: 0.5rem;
+}
+
+.productPricePerKilo {
+    font-size: 1.25rem;
+    color: var(--text-secondary-color);
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .productDetails {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productImage {
+        max-width: 100%;
+    }
+
+    .productInfo {
+        text-align: center;
+    }
+
+    .productName {
+        font-size: 1.75rem;
+    }
+
+    .productDescription {
+        font-size: 1rem;
+    }
+
+    .productPrice {
+        font-size: 1.25rem;
+    }
+
+    .productDiscount,
+    .productPricePerKilo {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .productName {
+        font-size: 1.5rem;
+    }
+
+    .productDescription {
+        font-size: 0.9rem;
+    }
+
+    .productPrice {
+        font-size: 1.1rem;
+    }
+}
