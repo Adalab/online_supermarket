@@ -1,7 +1,7 @@
 import productsData from "../../../data/products.json";
 import vegetablesProductsData from "../../../data/vegetables_products.json";
-import ProductDetail from "../../components/ProductDetail/ProductDetail";
 import Header from "@/app/components/Header/Header";
+import ProductDetailClient from "@/app/components/ProductDetailClient/ProductClient";
 
 export async function generateStaticParams() {
     const allProducts = Object.values(productsData).flat();
@@ -29,7 +29,7 @@ export default function DetailView({ params }) {
             <Header />
             <div>
                 {product ? (
-                    <ProductDetail product={product} />
+                    <ProductDetailClient product={product} />
                 ) : (
                     <p>Producto no encontrado.</p>
                 )}
