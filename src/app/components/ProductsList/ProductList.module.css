@@ -19,3 +19,11 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
 }
+
+.noProductsMessage {
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--text-secondary-color);
+    margin: 2rem 0;
+    height: 60vh;
+}

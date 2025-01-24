@@ -5,3 +5,10 @@
     padding: 2rem;
     background-color: var(--background-color);
 }
+
+.noProductsMessage {
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--text-secondary-color);
+    margin: 2rem 0;
+}

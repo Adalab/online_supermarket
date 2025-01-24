@@ -6,7 +6,9 @@ import { Roboto } from "next/font/google";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import ProductsList from "./components/ProductsList/ProductList";
-import CookieConsent from './components/CookieConsent/CookieConsent';
+import CookieConsent from "./components/CookieConsent/CookieConsent";
+import Searcher from "./components/Searcher/Searcher";
+import productsData from "../data/products.json";
 
 const roboto = Roboto({
     weight: ["400", "500", "700"],
@@ -16,6 +18,7 @@ const roboto = Roboto({
 
 export default function Home() {
     const [isConsentVisible, setIsConsentVisible] = useState(false);
+    const [filteredProducts, setFilteredProducts] = useState(productsData);
 
     useEffect(() => {
         const cookieConsent = Cookies.get("cookieConsent");
@@ -38,13 +41,29 @@ export default function Home() {
         console.log("Configure clicked");
     };
 
+    const handleSearch = (query) => {
+        if (!query) {
+            setFilteredProducts(productsData);
+            return;
+        }
+        const lowerCaseQuery = query.toLowerCase();
+        const filtered = Object.entries(productsData).reduce((acc, [category, products]) => {
+            acc[category] = products.filter((product) =>
+                product.name.toLowerCase().includes(lowerCaseQuery)
+            );
+            return acc;
+        }, {});
+        setFilteredProducts(filtered);
+    };
+
     return (
         <>
             {isConsentVisible && <div className={styles.overlay}></div>}
             <div className={`${roboto.variable}`}>
                 <Header />
+                <Searcher onSearch={handleSearch} />
                 <main>
-                    <ProductsList />
+                    <ProductsList productsData={filteredProducts} />
                 </main>
                 <Footer />
                 {isConsentVisible && (

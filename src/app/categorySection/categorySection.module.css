@@ -1,5 +1,5 @@
 .main {
-    padding: 2rem;
+    padding: 0 2rem 2rem 2rem;
     background-color: var(--background-color);
     min-height: 100vh;
 }
@@ -10,6 +10,7 @@
     color: var(--primary-color);
     text-align: left;
     margin-bottom: 2rem;
+    margin-top: 3rem;
     line-height: var(--line-height-heading);
 }
 
